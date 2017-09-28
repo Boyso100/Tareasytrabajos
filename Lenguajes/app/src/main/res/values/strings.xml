@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lenguajes</string>
+    <string name="world">hello world</string>
+
+    <string name="Enviar">Enviar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="Actualizar">Actualizar</string>
+
+    <string name="action">Configuraciones</string>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Idioms</string>
+    <string name="world">Hello World!!!</string>
+    <string name="Enviar">send</string>
+    <string name="Eliminar">Remove</string>
+    <string name="Actualizar">Update</string>
+</resources>
