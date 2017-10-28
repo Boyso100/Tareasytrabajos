@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnFragHardcode"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:text="Cargar fragmento Harccode"
+
+        android:onClick="btnFragHardcode_click">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/btnFragDinamico"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:text="Cargar  Fragmento en ejecucion"
+
+
+        android:onClick="btnFragDinamico_click"
+        />
+    <fragment
+        class="com.example.igor.fragments.fragments.MainFragment"
+        android:id="@+id/mainFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.63"/>
+
+    <FrameLayout
+        android:id="@+id/flCentral"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.65"/>
+
+    <LinearLayout
+        android:id="@+id/llRight"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/flDetailTop"
+            android:layout_width="247dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.97"/>
+
+        <FrameLayout
+            android:id="@+id/flDetailBottom"
+            android:layout_width="255dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
